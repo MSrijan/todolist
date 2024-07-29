@@ -1,0 +1,24 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.input-group {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.task:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+.task .btn-outline-light {
+    border-color: transparent;
+    color: #28a745;
+}
+.task .btn-outline-light:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+.task .btn-danger {
+    border-color: transparent;
+}
+.task .btn-danger:hover {
+    background-color: #dc3545;
+}
